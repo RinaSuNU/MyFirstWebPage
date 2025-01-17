@@ -10,6 +10,17 @@ header{
     text-align: center; 
     margin: 0;
 }
+footer{
+    background-color: #05704e;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+details summary{
+    font-weight: bold;
+    cursor: pointer;
+}
 
 nav{
     background-color: #05704e;
@@ -119,6 +130,9 @@ a:hover {
 .login-form label{
     display: block;
     margin-bottom: 5px;
+}
+.login-form button[type="submit"]{
+    margin-top: 20px;
 }
 .login-form button[type="submit"]:hover{
     background-color: #a7a7a7;
