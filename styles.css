@@ -1,3 +1,9 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: Arial, sans-serif; 
     background-color: white; 
@@ -5,9 +11,9 @@ body{
 }
 
 header{
-    background-color: rgba(156,218,191,0.5);
+    background-color: rgba(156,218,191,0.8);
     color: black;
-    text-align: center; 
+    text-align: left; 
     margin: 0;
 }
 footer{
@@ -16,7 +22,9 @@ footer{
     text-align: center;
     padding: 1rem;
 }
-
+details li{
+    font-family: "Times New Roman", Times, serif;
+}
 details summary{
     font-weight: bold;
     cursor: pointer;
@@ -38,17 +46,22 @@ nav li{
     margin-right: 1rem;
 }
 
-
+h1{
+    height:70px;
+    margin-bottom: 1px;
+    font-size: 20px;
+}
 h2{
-    margin: 2rem;
+    margin-left: 2rem;
 }
 p{
     font-family: "Times New Roman", Times, serif;
+    padding: 2rem;
 }
 
 section{
     
-    margin: 2rem;
+    margin: 0;
     overflow: hidden;
 }
 artical{
@@ -59,8 +72,9 @@ artical{
 aside{
     width: 20%;
     float: right;
-    padding: 1rem;
+    padding: 10px;
     margin-top: 10rem;
+
     background-color: rgba(255, 255, 255, 0.7);
 }
 video{
@@ -79,14 +93,14 @@ video{
 .gallery {
     float: left;
     padding: 10px;
-    margin: 20px;
-    border: 1px solid gray ;
+    margin: 24px;
+    border: 0px ;
     border-radius: 25px;
     overflow: hidden;
 }
 .gallery:hover {
     border-radius: 25px;
-    border: 1px solid rgb(236, 235, 235);
+    border: 0px solid rgb(236, 235, 235);
     box-shadow: 10px 10px 10px rgb(179, 177, 177);
 }
 .desc {
@@ -97,7 +111,7 @@ a:link {
     color: black;
 }
 a:visited {
-    color: rgb(118, 0, 177);
+    color: white;
 }
 a:hover {
     color: rgb(0, 81, 255);
@@ -113,8 +127,14 @@ a:hover {
 
 .specialtilter2{
     color: #05704e;
-    font-size: 45px;
+    font-size: 37px;
     font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.specialtilter3{
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
 }
 
 /*Login from*/
@@ -154,6 +174,7 @@ a:hover {
 table{
     width: 100%;
     border-collapse: collapse;
+    margin: 10px;
 }
 th, td{
     border: 1px solid #ccc;
