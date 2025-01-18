@@ -129,7 +129,9 @@ video{
 }
 a:link {
     color: black;
-
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
 }
 a:visited {
     color: #df1515;
