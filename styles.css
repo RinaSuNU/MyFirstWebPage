@@ -1,8 +1,3 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
 
 body{
     font-family: Arial, sans-serif; 
@@ -11,10 +6,14 @@ body{
 }
 
 header{
-    background-color: rgba(156,218,191,0.8);
+    background: linear-gradient(to right bottom, #05704e, #1d7d5a, #2e8a66, #3d9772, #4ba57f);
     color: black;
     text-align: left; 
     margin: 0;
+    margin-bottom: 25px;
+    border: 0px ;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgb(179, 177, 177);
 }
 footer{
     background-color: #05704e;
@@ -24,31 +23,46 @@ footer{
 }
 details li{
     font-family: "Times New Roman", Times, serif;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
 }
 details summary{
     font-weight: bold;
     cursor: pointer;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
 }
 
 nav{
-    background-color: #05704e;
-    color: white;
-    text-align: center;
+    list-style-type: none; 
+    text-align: right;
     padding: 1rem;
 }
 nav ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    display: inline-block;
+    margin: 0 20px;
 }
 nav li{
-    display: inline;
-    margin-right: 1rem;
+    display: inline-block;
+    margin-right: 20px;
+}
+.nav-button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(248, 248, 248);
+    color: black;
+    border: 0px ;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.nav-button:hover{
+    background-color: #05704e3d;
 }
 
 h1{
     height:70px;
-    margin-bottom: 1px;
+    margin-left: 20px;
+    padding-top: 20px;
     font-size: 20px;
 }
 h2{
@@ -60,9 +74,9 @@ p{
 }
 
 section{
-    
     margin: 0;
     overflow: hidden;
+
 }
 artical{
     width: 55%;
@@ -71,11 +85,16 @@ artical{
 }
 aside{
     width: 20%;
+    height: auto;
     float: right;
     padding: 10px;
     margin-top: 10rem;
-
     background-color: rgba(255, 255, 255, 0.7);
+    border: 0px ;
+    border-radius: 25px;
+
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #b3b3b3, -6px -6px 12px #ffffff;
 }
 video{
     display: block;
@@ -83,6 +102,7 @@ video{
     width: 60%;
     height: auto;
     border-radius: 10px;
+    padding-bottom: 20px;
 }
 
 .gallery img {
@@ -109,9 +129,10 @@ video{
 }
 a:link {
     color: black;
+
 }
 a:visited {
-    color: white;
+    color: #df1515;
 }
 a:hover {
     color: rgb(0, 81, 255);
@@ -126,15 +147,9 @@ a:hover {
 }
 
 .specialtilter2{
-    color: #05704e;
+    color: #DBE5D8;
     font-size: 37px;
     font-weight: bold;
-    font-family: "Courier New", Courier, monospace;
-}
-
-.specialtilter3{
-    font-weight: bold;
-    font-family: "Times New Roman", Times, serif;
 }
 
 /*Login from*/
@@ -143,7 +158,7 @@ a:hover {
     margin: 0 auto;
     margin-top: 100px;
     padding: 10px;
-    border: 1px solid #05704e;
+    border: 0px ;
     border-radius: 10px;
     background-color: rgba(194, 227, 212, 0.5);
 }
@@ -151,18 +166,38 @@ a:hover {
     display: block;
     margin-bottom: 5px;
 }
+.login-form input[type="text"], .login-form input[type="password"]{
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #b3b3b3, -6px -6px 12px #ffffff;
+}
 .login-form button[type="submit"]{
-    margin-top: 20px;
+    margin: 20px;
+    margin-left: 40px;
+    padding: 0.7em 1.7em 0.7em;
+    border-radius: 0.5em;
+    background: #f0f0f0;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #b3b3b3, -6px -6px 12px #ffffff;
 }
 .login-form button[type="submit"]:hover{
-    background-color: #a7a7a7;
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
 }
 
 /*Backgroung image*/
 .backgroundimage1{
     background:linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.8)),
     url('images/backimage2.jpg') no-repeat center center fixed;
-    background-size: contain;
+    background-size: cover;
+    border: 0px ;
+    border-radius: 25px;
 }
 .backgroundimage2{
     background:linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.8)),
@@ -174,7 +209,6 @@ a:hover {
 table{
     width: 100%;
     border-collapse: collapse;
-    margin: 10px;
 }
 th, td{
     border: 1px solid #ccc;
@@ -182,7 +216,7 @@ th, td{
     text-align: center;
 }
 th{
-    background-color: rgba(92, 180, 106, 0.7);
+    background-color: rgba(0, 139, 23, 0.5);
     color: rgb(0, 0, 0);
 }
 
@@ -191,4 +225,9 @@ th{
     content: ""; 
     clear: both; 
     display: table; 
+}
+
+/*Blank Space*/
+.blankspace{
+    height: 7rem;
 }
