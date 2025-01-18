@@ -1,4 +1,4 @@
-# INFO6150_Assignment1_RinaSu_002308528
+# INFO6150_Assignment1_RinaSu
 
 ## Description:
 This project is a website for weekly specials about 88 Supermarket, showing the use of HTML and HTML5 controls, and styled with an external CSS file.
