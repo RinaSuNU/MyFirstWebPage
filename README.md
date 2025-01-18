@@ -9,9 +9,9 @@ This project is a website for weekly specials about 88 Supermarket, showing the 
 2.Utilizes semantic elements (Header, Section, Article, Aside, Footer), with the Article on the left containing a .mp4 file of the supermarket, and an Aside on the right focusing on login information.
   - Contains a table displaying the price list and stock availability of products.
 
-  - Uses a Form with input fields for Username, Email, and Password, and includes a Login button below.
+  - Uses a Form with input fields for Username, Email, and Password, and includes a Login button below. Uses a Datalist with input fields for location.
 
-  - Inserts images of weekly special flyers, with link text turning blue when hovered over, shadows appearing around the images, and upon clicking, opening the images in a new page. After refreshing, clicked links turn red.
+  - Inserts images of weekly special flyers with Figure and Figcaption, with link text turning blue when hovered over, shadows appearing around the images, and upon clicking, opening the images in a new page. After refreshing, clicked links turn red.
 
   - Contains hyperlinks to the supermarket's contact information page, with links styled as buttons in the header.
 

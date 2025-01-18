@@ -154,15 +154,12 @@ a:hover {
     font-weight: bold;
 }
 
-/*Login from*/
-.login-from{
-    width: 300px;
-    margin: 0 auto;
-    margin-top: 100px;
+/*Login form*/
+.login-form{
+    width: 100%;
     padding: 10px;
     border: 0px ;
     border-radius: 10px;
-    background-color: rgba(194, 227, 212, 0.5);
 }
 .login-form label{
     display: block;
@@ -178,7 +175,7 @@ a:hover {
     box-shadow: 6px 6px 12px #b3b3b3, -6px -6px 12px #ffffff;
 }
 .login-form button[type="submit"]{
-    margin: 20px;
+    margin: 10px;
     margin-left: 40px;
     padding: 0.7em 1.7em 0.7em;
     border-radius: 0.5em;
